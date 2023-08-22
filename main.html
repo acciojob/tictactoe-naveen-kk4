@@ -8,6 +8,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="main-class">
+		<h1>TIC TAC TOE</h1>
+		<form onsubmit="formSubmitted(event)">
+			<div><label for="player-1">Player 1</label>
+				<input  placeholder="enter name" id="player-1" type="text"></div>
+				<div>
+					<label for="player-2">Player 2</label>
+			<input placeholder="enter name" id="player-2" type="text" >
+				</div>
+			
+			<button id="submit">Start Game</button>
+		</form>
+	</div>
+	<div class="invisible">
+		<div class="message"></div>
+		<div class="container">
+			<div id="grid-item-0" onclick="cellFunction(id)"></div>
+			<div id="grid-item-1" onclick="cellFunction(id)"></div>
+			<div id="grid-item-2" onclick="cellFunction(id)" ></div>
+			<div id="grid-item-3" onclick="cellFunction(id)"></div>
+			<div id="grid-item-4" onclick="cellFunction(id)"></div>
+			<div id="grid-item-5" onclick="cellFunction(id)"></div>
+			<div id="grid-item-6" onclick="cellFunction(id)"></div>
+			<div id="grid-item-7" onclick="cellFunction(id)"></div>
+			<div id="grid-item-8" onclick="cellFunction(id)"></div>
+			
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
