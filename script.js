@@ -5,8 +5,8 @@ function formSubmitted(event){
 	players=[];
 	decider=true;
 	event.preventDefault();
-	players.push(document.getElementById("player-1").value);
-	players.push(document.getElementById("player-2").value);
+	players.push(document.getElementById("player1").value);
+	players.push(document.getElementById("player2").value);
 	console.log(players);
 	document.getElementsByTagName("form")[0].style.display = "none";
 	document.getElementsByClassName("invisible")[0].style.visibility = "visible";
